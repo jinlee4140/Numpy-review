@@ -38,3 +38,11 @@ print b
 
 print a[0, 1]
 print b[0, 0]
+
+row_r1 = a[1, :]    # Rank 1 view of the second row of a  
+row_r2 = a[1:2, :]  # Rank 2 view of the second row of a
+
+print row_r1, row_r1.shape
+print row_r2, row_r2.shape
+
+#I don't understand the difference between these two shapes.
